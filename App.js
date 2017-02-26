@@ -4,7 +4,7 @@ var filtered = [12, 5, 8, 130, 44];
 // THIS SECTION IS THE CODE 
 
 function checkId(value) {
-    if ( value > 10)
+    if ( value !== Boolean)
      return value;
 }
 function bouncer(arr) {
